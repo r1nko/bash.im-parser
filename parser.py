@@ -22,10 +22,8 @@ def parse(html):
 		output.write(str(quote.text))
 		output.write('\n')
 
-
 def main():
 	parse (get_html('http://bash.im/'))
 
 if __name__ == '__main__':
 	main()
-
